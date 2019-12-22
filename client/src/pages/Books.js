@@ -73,7 +73,7 @@ class SearchBooks extends Component {
     return (
       <Container fluid>
         <Jumbotron>
-          <h1 className="text-black">Find Your Favorite Books</h1>
+          <h1 className="text-black">Find Your Favorite Books in Google Books</h1>
         </Jumbotron>
         <Container>
           <Row>
