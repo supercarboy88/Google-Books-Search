@@ -20,8 +20,12 @@ class Saved extends Component {
 
     loadSaved = () => {
         API.getAllSaved()
-            .then(res => {this.setState({ saved: res.data})})
-            .catch(err => console.log(err));
+            .then(res => {
+                this.setState({ 
+                    saved: res.data
+                })
+            })
+             .catch(err => console.log(err));
     }
 
     removeSaved = book => {

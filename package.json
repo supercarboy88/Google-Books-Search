@@ -1,11 +1,11 @@
 {
   "name": "google-books-search",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/supercarboy88/Google-Books-Search"
+    "url": "https://github.com/fzachary/google-books-search"
   },
-  "description": "Google Books Search",
+  "description": "React-based app to search Google Books API",
   "main": "server.js",
   "engines": {
     "node:": "10.15.3"
@@ -16,16 +16,16 @@
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
-    "build": "cd client && npm run build",
+    "build": "cd client && run npm build",
     "heroku-postbuild": "cd client && npm run build"
   },
-  "author": "Nick Ying",
+  "author": "Frank Zachary",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.4"
   },
-    "dependencies": {
+  "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "express": "^4.17.1",
@@ -36,8 +36,10 @@
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
-  "bugs": {
-    "url": "https://github.com/supercarboy88/Google-Books-Search/issues"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "homepage": "https://github.com/supercarboy88/Google-Books-Search#readme"
+  "bugs": {
+    "url": "https://github.com/fzachary/google-books-search/issues"
+  }
 }
