@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
 import { Column, Row, Container } from "../../components/Grid";
-import Hero from "../../components/Hero";
+import Jumbotron from "../../components/Jumbotron";
 import List from "../../components/List";
 import Book from "../../components/Book";
 import DeleteBtn from "../../components/DeleteBtn";
@@ -45,7 +45,7 @@ class Saved extends Component {
         return (
             <div>
                 <Container>
-                    <Hero />
+                    <Jumbotron />
                     <Row>
                         <div className="card text-center">
                             <div className="card-body bg-dark">

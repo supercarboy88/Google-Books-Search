@@ -6,7 +6,7 @@ function Navbar(active) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
-                <a className="navbar-brand" href="/">MERN Virtual Library</a>
+                <a className="navbar-brand" href="/">Google Books Search</a>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-right">
                             <li className="nav-item">

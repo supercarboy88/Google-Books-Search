@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
-const PORT = process.env.PORT || 3333;
+const PORT = process.env.PORT || 3003;
 
 // Define Middleware
 app.use(express.urlencoded({ extended: true }));
@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://user:abc123@ds061621.mlab.com:61621/heroku_3mb3jnms");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks0");
 
 // Start the API server
 app.listen(PORT, function() {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Row, Column, Container } from "../../components/Grid";
-import Hero from "../../components/Hero";
+import Jumbotron from "../../components/Jumbotron";
 import Card from "../../components/Card";
 import Form from "../../components/Form";
 import List from "../../components/List";
@@ -61,7 +61,7 @@ class Search extends Component {
     render() {
         return (
             <Container>
-                <Hero />
+                <Jumbotron />
                 <Row id="search-row">
                     <Column size="md-12">
                         <Card title="Book Search" icon="book-open">

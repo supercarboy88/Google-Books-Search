@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url("/images/books-bg.jpg");
+    background: url("../images/books.jpg") center center / cover no-repeat;
     height: 336.3px;
     font-family: 'Crimson Text', serif;
     border-radius: 0 !important;
