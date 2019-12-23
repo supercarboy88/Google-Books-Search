@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url("/images/books-bg.jpg");
+    height: 336.3px;
+    font-family: 'Crimson Text', serif;
+    border-radius: 0 !important;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 13px;
+}
+
+.lead {
+    font-size: 24px;
+}

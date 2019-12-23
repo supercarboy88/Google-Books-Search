@@ -1,0 +1,17 @@
+.form-control {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.btn-secondary {
+    float: right;
+}
+
+i {
+    margin-right: 12px;
+    color: #ffffff;
+}
+
+strong {
+    color: #ffffff;
+}

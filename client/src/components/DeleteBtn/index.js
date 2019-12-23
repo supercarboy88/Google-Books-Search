@@ -1,14 +1,18 @@
 import React from "react";
-import "./style.css";
+import Button from "../Button";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
-// The ...props means, spread all of the passed props onto this element
-// That way we don't have to define them all individually
 function DeleteBtn(props) {
-  return (
-    <span className="delete-btn" {...props} role="button" tabIndex="0">
-      ✗
-    </span>
-  );
+    return (
+        <div>
+            <Button type="danger"
+                    onClick={props.onClick}>
+                        REMOVE
+            </Button>
+            <ToastContainer />
+        </div>
+    );
 }
 
 export default DeleteBtn;
